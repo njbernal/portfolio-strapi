@@ -1,0 +1,14 @@
+runtime: nodejs16
+
+instance_class: F2
+
+env_variables:
+  HOST: '0.0.0.0'
+  NODE_ENV: 'production'
+  DATABASE_NAME: 'portfolio'
+  DATABASE_USER: 'strapinick'
+  DATABASE_PASSWORD: 'M2iQs~y^7>r_0B.E'
+  INSTANCE_CONNECTION_NAME: 'exceljson:us-west2:portfolio'
+
+beta_settings:
+  cloud_sql_instances: 'exceljson:us-west2:portfolio'
